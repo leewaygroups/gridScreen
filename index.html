@@ -1,0 +1,26 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-rc.2/angular.js" /></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.js" /></script>
+	<script type="text/javascript" src="app.js" /></script>
+	<script type="text/javascript" src="directives.js" /></script>
+	<title>Advanced Directived in AngularJS</title>
+</head>
+
+<body ng-app="app">
+	<div class="row">
+		<grid-screen resource="/api/data.json">
+			<grid-columns>
+				<grid-column title="Product" field="product"></grid-column>
+				<grid-column title="Description" field="description"></grid-column>
+				<grid-column title="Cost" field="cost"></grid-column>
+				<grid-column title="Available" field="available"></grid-column>
+			</grid-columns>
+			<grid with-inline-editor></grid>
+		</grid-screen>
+	</div>
+</body>
+
+</html>

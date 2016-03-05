@@ -1,0 +1,14 @@
+<div class="container">
+	<table class="table table table-hover">
+		<thead>
+			<tr>
+				<th ng-repeat="column in columns">{{column.title}}</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="row in rows">
+				<td ng-repeat="col in columns">{{row[col.field]}}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>

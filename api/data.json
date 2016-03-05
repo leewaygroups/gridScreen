@@ -1,0 +1,22 @@
+{
+	"data": [
+		{
+			"product": "Pad Thai",
+			"description": "Thai Lunch",
+			"cost": 150,
+			"available": "Yes"
+		},
+		{
+			"product": "Humus",
+			"description": "Israeli special",
+			"cost": 80,
+			"available": "No"
+		},
+		{
+			"product": "Cordon Blue",
+			"description": "Europe special",
+			"cost": 200,
+			"available": "Yes"
+		}
+	]
+}
